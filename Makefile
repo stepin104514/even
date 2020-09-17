@@ -5,17 +5,19 @@ PROJECT_NAME = even
 BUILD = build
 
 # All source code files
-SRC =main.c\
-src/evennumber.c\
+SRC = main.c\
+src/evenNumber.c\
 
+# All test source files
+TEST_SRC = src/evenNumber.c\
+test/test_evenNumber.c
 
+TEST_OUTPUT = $(BUILD)/Test_$(PROJECT_NAME).out
 
 # All include folders with header files
 INC	= -Iinc
 
 PROJECT_OUTPUT = $(BUILD)/$(PROJECT_NAME).out
-
-
 
 # Default target built
 $(PROJECT_NAME):all
@@ -30,6 +32,15 @@ all: $(SRC) $(BUILD)
 run:$(PROJECT_NAME)
 	./$(PROJECT_OUTPUT).out
 
+
+# Build and run the unit tests
+test:$(BUILD)
+	gcc $(TEST_SRC) $(INC) -o $(TEST_OUTPUT) -lcunit
+	./$(TEST_OUTPUT)
+
+# Remove all the built files, invoke by `make clean`
+clean:
+	rm -rf $(BUILD)
 
 # Create new build folder if not present
 $(BUILD):
