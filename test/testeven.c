@@ -20,9 +20,9 @@ int main() {
   
   
   /* Add your test functions in this format for testing*/
-  CU_add_test(suite, "not prime", test_not_prime);
-  CU_add_test(suite, "prime", test_prime);
-  CU_add_test(suite, "negative or zero", test_negative_zero);
+  CU_add_test(suite, "not even", test_not_even);
+  CU_add_test(suite, "prime", test_even);
+  
 
 
 /* Note: Do not edit START*/
