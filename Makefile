@@ -6,11 +6,11 @@ BUILD = build
 
 # All source code files
 SRC = main.c\
-src/evenNumber.c\
+src/evennumber.c\
 
 # All test source files
-TEST_SRC = src/evenNumber.c\
-test/test_evenNumber.c
+TEST_SRC = src/evennumber.c\
+test/test_evennumber.c
 
 TEST_OUTPUT = $(BUILD)/Test_$(PROJECT_NAME).out
 
