@@ -4,7 +4,7 @@
 int main(void)
 {
 	int n=7;
-	p = evenNumber(n);
+	p = evennumber(n);
 	switch(p)
 	{
    	 case 1:
