@@ -1,8 +1,8 @@
-#include "evenNumber.h"
+#include "evennumber.h"
 
-int evenNumber(int n)
+int evennumber(int n)
 {
-    if(n%2==0)
+    if(n %2 == 0)
 	{
 	return 0;
 	}
