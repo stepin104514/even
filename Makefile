@@ -10,7 +10,7 @@ src/evennumber.c\
 
 # All test source files
 TEST_SRC = src/evennumber.c\
-test/test_evennumber.c
+test/testeven.c
 
 TEST_OUTPUT = $(BUILD)/Test_$(PROJECT_NAME).out
 
