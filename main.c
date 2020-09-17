@@ -7,10 +7,10 @@ int main(void)
 	p = evenNumber(n);
 	switch(p)
 	{
-    case 1:
-        printf("odd");
-    case 0:
-        printf("even number");
+   	 case 1:
+        	printf("odd");
+   	 case 0:
+      		printf("even number");
 	}
 	return 0;
 }
