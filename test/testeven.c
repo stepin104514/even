@@ -2,7 +2,7 @@
 #include <CUnit/CUnit.h>
 
 /* Modify these two lines according to the project */
-#include <primeNumber.h>
+#include <evennumber.h>
 #define PROJECT_NAME    "even"
 
 /* Prototypes for all the test functions */
