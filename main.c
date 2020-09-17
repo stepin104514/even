@@ -1,4 +1,4 @@
-#include<stdio.h>
+
 #include "evenNumber.h"
 
 int main(void)
