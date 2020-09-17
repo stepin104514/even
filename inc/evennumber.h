@@ -12,6 +12,6 @@
 * @return -1 if not prime
 * @note Returns 0 for negative values, 0 and 1
 */
-int evenNumber(int number);
+int evennumber(int number);
 
 #endif /* #ifndef __EVENNUMBER_H__ */
